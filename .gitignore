@@ -1,0 +1,15 @@
+# Dependências instaladas
+node_modules/
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos de build
+/build/
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos gerados durante o desenvolvimento
+.DS_Store
