@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lant - Liga Acadêmica de Empreendedorismo e Inovação</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="font-sans">
+    <nav class="bg-black text-white p-4 flex justify-between items-center fixed top-0 w-full z-10">
+        <div class="logo flex items-center">
+            <img src="img/logo.png" alt="Logo" class="h-8 mr-2">
+            <span>LANT</span>
+        </div>
+        <div class="navbar-links ">
+            <a href="" class="link m-2">Home</a>
+            <a href="/integrantes" class="link m-2">Integrantes</a>
+            <a href="" class="link m-2">Perguntas</a>
+            <button id="fazer-parte-btn" class="join-button bg-black text-white border border-white px-4 py-2 rounded hover:text-white">
+                <a href="#contato">Fazer parte</a>
+            </button>
+        </div>
+    </nav>
+
+    <div class=" text-center  ml-10 mt-20">
+        <h2 class="text-2xl font-bold mb-4">Membros</h2>
+        <div class="grid grid-cols-2 ">
+            <!-- Membro 1 -->
+            <div class="flex items-center justify-center">
+                <img src="img/membro.jpeg" alt="Membro" class="rounded-full h-20 w-20 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-base font-semibold">Nome do Membro 1</h3>
+                    <p class="text-xs text-gray-500">Cargo/Função</p>
+                    <a href="#" class="text-blue-500 text-xs">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 2 -->
+            <div class="flex items-center mb-8 justify-center">
+                <img src="img/membro.jpeg" alt="Membro" class="rounded-full h-20 w-20 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-base font-semibold">Nome do Membro 2</h3>
+                    <p class="text-xs text-gray-500">Cargo/Função</p>
+                    <a href="#" class="text-blue-500 text-xs">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 3 -->
+            <div class="flex items-center mb-8 justify-center">
+                <img src="img/membro.jpeg" alt="Membro" class="rounded-full h-20 w-20 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-base font-semibold">Nome do Membro 3</h3>
+                    <p class="text-xs text-gray-500">Cargo/Função</p>
+                    <a href="#" class="text-blue-500 text-xs">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 4 -->
+            <div class="flex items-center mb-8 justify-center">
+                <img src="img/membro.jpeg" alt="Membro" class="rounded-full h-20 w-20 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-base font-semibold">Nome do Membro 4</h3>
+                    <p class="text-xs text-gray-500">Cargo/Função</p>
+                    <a href="#" class="text-blue-500 text-xs">LinkedIn</a>
+                </div>
+            </div>
+            <!-- Membro 5 -->
+            <div class="flex items-center mb-8 justify-center">
+                <img src="img/membro.jpeg" alt="Membro" class="rounded-full h-20 w-20 object-cover">
+                <div class="ml-4">
+                    <h3 class="text-base font-semibold">Nome do Membro 5</h3>
+                    <p class="text-xs text-gray-500">Cargo/Função</p>
+                    <a href="#" class="text-blue-500 text-xs">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
